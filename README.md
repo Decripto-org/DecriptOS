@@ -1,6 +1,6 @@
 # DecriptOS
 
-Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente per il team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e le analisi legate alle criptovalute e al Web3. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attività.
+Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente per il team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e le analisi legate alle criptovalute e al Web3, oltre alla gestione sicura delle crypto. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attività.
 
 ## Funzionalità
 
@@ -24,9 +24,9 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 Per installare DecriptOS, segui i seguenti passaggi:
 
 1. Scarica l'immagine ISO di DecriptOS dal nostro sito web ufficiale.
-2. Crea un supporto di installazione avviabile (es. una chiavetta USB) utilizzando l'immagine ISO.
-3. Avvia il tuo computer utilizzando il supporto di installazione.
-4. Dal menu di boot scegli live per provare la distro o install per avviare l'installazione seguendo le istruzioni.
+2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
+3. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione.
+4. Dal menu di boot scegli "live" per provare la distro o "install" per avviare l'installazione seguendo le istruzioni.
 
 ## Disclaimer
 
