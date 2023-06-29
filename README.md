@@ -28,7 +28,7 @@ Per utilizzare DecriptoOS tramite reboot:
 
 Per installare DecriptOS, segui i seguenti passaggi:
 
-1. Scarica l'immagine ISO di DecriptOS dal nostro sito web ufficiale. (per ora forniamo noi il link dell'ultima versione)
+1. Scarica l'immagine ISO di DecriptOS da questo link: https://e.pcloud.link/publink/show?code=XZvcsfZXAvRADuT0yRJw9lORlHaUHsAIisX
 2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
 3. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione.
 4. Dal menu di boot scegli "live" per provare la distro o "install" per avviare l'installazione seguendo le istruzioni.
