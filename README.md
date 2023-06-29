@@ -27,7 +27,7 @@ Per installare DecriptOS, segui i seguenti passaggi:
 2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
 3. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione.
 4. Dal menu di boot scegli "live" per provare la distro o "install" per avviare l'installazione seguendo le istruzioni.
-5. Una volta avviato impostare una password dal terminale con `sudo passwd` e poi inserendola.
+5. Una volta avviato impostare una password dal terminale con `sudo passwd` e poi inserendola. Le altre password di default sono `decripto`.
 
 ## Disclaimer
 
