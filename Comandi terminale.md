@@ -155,7 +155,8 @@ ssh-keygen -t ed25519 -C james.moriarty@decripto.org
 
 Per collegare GitHub tramite ssh:
 
-- ssh-keygen -t ed25519 -C james.moriarty@decripto.org
+- crea la chiave SSH
+  `ssh-keygen -t ed25519 -C james.moriarty@decripto.org`
 
 [enter the file in which to save the key or skip to keep `/home/decripto/.ssh/id_ed25519`]
 
