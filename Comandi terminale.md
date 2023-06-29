@@ -132,7 +132,38 @@ Esempio:
 ip addr
 ```
 
+**13. `passwd` - imposta la password del sistema**
 
+Esempio:
+```
+sudo passwd
+```
+
+**13. `ip addr` - mostra le specifiche dell'indirizzo IP**
+
+Esempio:
+```
+ip addr
+```
+
+**14. `ssh-keygen` - generazione di una chiave SSH**
+
+Esempio:
+```
+ssh-keygen -t ed25519 -C james.moriarty@decripto.org
+```
+
+Per collegare GitHub tramite ssh:
+
+- ssh-keygen -t ed25519 -C james.moriarty@decripto.org
+
+[enter the file in which to save the key or skip to keep `/home/decripto/.ssh/id_ed25519`]
+
+[enter password or skip]
+
+- compiare la chiave SSH nel file .pub nella cartella `/home/decripto/.ssh/` (una cosa tipo: `ssh-ed25519 AAAAC3NzaCC1.....7kX0J`)
+
+- aprire github e andare sotto settings, SSH, nuova, incolla e dai un nome
 
 
 # Comandi di Decripto OS
