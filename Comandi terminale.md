@@ -145,7 +145,7 @@ Questo comando inizializza una cartella, creando i file bozza-articolo.md, mater
 
 Esempio:
 ```
-dinit
+dinit.sh
 ```
 
 **2. `kraken` - Avvia il Kraken**
