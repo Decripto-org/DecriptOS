@@ -1,4 +1,4 @@
-##Ecco come abbiamo realizzato DecriptOS!
+## Ecco come abbiamo realizzato DecriptOS!
 
 Per prima cosa, in una vm basata su debian bullseye, abbiamo creato l'ambiente di lavoro di DecriptOS, configurando tutti i tool, i menu, la parte grafica, le feature e scaricando i file di installazione che vogliamo siano presenti nella distro.
 Poi abbiamo installati i pre-requisiti per avviare la fase di creazione della iso.
@@ -52,7 +52,7 @@ Poi, facciamo in modo che il servizio tor non sia attivo di default (per evitare
 systemctl disable tor
 systemctl enable ufw
 ```
-Installiamo tutti gli altri tool, avviando lo script scripts.sh e, infine, terminiamo digitando
+Installiamo tutti gli altri tool, avviando lo script scripts.sh, cancelliamo lo script e, infine, terminiamo digitando
 ```
 exit
 ```
