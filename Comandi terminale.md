@@ -180,14 +180,14 @@ Esempio:
 dinit.sh
 ```
 
-**2. `kraken` - Avvia il Kraken**
+**2. `kraken.py` - Avvia il Kraken**
 
 Questo comando avvia il programma Kraken nel terminale, che assiste durante l'indagine automatizzando alcuni processi, come l'apertura delle tab e il salvataggio di alcuni dati.
 
 Esempio:
 ```
-kraken (avvio standard)
-kraken -h (messaggio di aiuto)
+kraken.py (avvio standard)
+kraken.py -h (messaggio di aiuto)
 ```
 
 # Comandi Git per sincronizzare le cartelle con GitHub
