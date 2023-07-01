@@ -30,7 +30,7 @@ dpkg -i obsidian*
 cd kalitorify
 make install
 cd /home/decripto/Tools
-cd holele-master
+cd holehe-master
 python3 setup.py install
 cd /home/decripto/Tools
 ./burpsui*
@@ -39,7 +39,7 @@ dpkg -i discord*
 dpkg -i Wasa*
 rm -rf *.deb
 rm -rf Kraken-main.zip
-rm -rf holele-master.zip
+rm -rf holehe-master.zip
 rm -rf tor-browser-linux*
 rm -rf tsetup*
 cd
