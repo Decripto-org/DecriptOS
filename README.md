@@ -1,6 +1,6 @@
 # DecriptOS
 
-Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente per il team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e le analisi legate alle criptovalute e al Web3, oltre alla gestione sicura delle crypto. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attività.
+Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente dal team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e la due diligence, oltre alla gestione sicura delle crypto. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attivitàe per chiunque voglia gestire le crypto in modo sicuro o fare due diligenge nel mondo web2 e web3.
 
 ## Funzionalità
 
@@ -17,23 +17,52 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 - Processore: 1 GHz o superiore
 - RAM: 2 GB o superiore
 - Spazio su disco: 20 GB o superiore
+- Capienza USB (se si vuole usare tramite reboot): 8 GB o superiore
 - Connessione Internet per gli aggiornamenti e il download delle risorse aggiuntive
 
-Per utilizzare DecriptoOS tramite reboot:
+## Avvio o installazione
 
-- Una chiavetta USB da almeno 4Gb
-- Balena Etcher 
+Per avviae o installare DecriptOS, segui i seguenti passaggi:
 
-## Installazione
-
-Per installare DecriptOS, segui i seguenti passaggi:
-
-1. Scarica l'immagine ISO di DecriptOS da questo link: https://e.pcloud.link/publink/show?code=XZO8MfZj8aDjKXyNQ56PuFml1gzcbGHPNR7
+1. Scarica l'immagine ISO di DecriptOS da [questo link](https://e.pcloud.link/publink/show?code=XZO8MfZj8aDjKXyNQ56PuFml1gzcbGHPNR7).
 2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
-3. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione.
-4. Dal menu di boot scegli "live" per provare la distro o "install" per avviare l'installazione seguendo le istruzioni.
-5. Se decidi di installare, come username imposta decripto, altrimenti alcuni tool potrebbero non funzionare correttamente.
-6. Una volta avviato impostare una password dal terminale con `sudo passwd` e poi inserendola. Le altre password di default sono `decripto`.
+
+   2.1 Flashing del file .iso su USB per usalo tramite reboot:
+
+    - Una chiavetta USB da almeno 8Gb
+    - [Rufus](https://rufus.ie/it/) se si fa da Windows
+
+    ![image_2023-07-02_16-01-20](https://github.com/Decripto-org/DecriptOS/assets/134168296/fc71fd29-c982-44c1-9084-f45ddd16d331)
+
+    oppure [Unebootin](https://unetbootin.github.io/) se si fa da Mac OS:
+
+    - una volta scaricato premere il tasto destro e cliccare su "Apri" (potrebbe essere necessario farlo un paio di volte)
+
+    <img width="478" alt="Screenshot 2023-07-02 alle 17 21 41" src="https://github.com/Decripto-org/DecriptOS/assets/134168296/c4445a22-51c7-41db-9b59-d08eeb36ee37">
+
+    poi selezionare il file .iso e la chiavetta USB
+
+    <img width="533" alt="image" src="https://github.com/Decripto-org/DecriptOS/assets/134168296/73edf885-9638-491a-a1d7-8a7fe46f2dbd">
+
+    e avviare l'operazione.
+
+4. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione, tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
+
+   da Mac selezionare il supporto `EFI Boot`:
+
+   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/ed3323d8-39f1-4630-98d5-649dfab080f0)
+
+   da Windows selezionare il supporto `USB - UEFI OS`:
+
+   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a4561aac-5c4d-4522-8e31-5638cab3b5b6)
+
+
+6. Dal menu di boot scegli "Live system" per provare la distro o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+
+![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a483a07d-f9d5-4bee-8d9c-33c68a945872)
+
+7. Se decidi di installare, come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
+8. Una volta avviato impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
 
 ## Disclaimer
 
