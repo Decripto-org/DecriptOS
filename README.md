@@ -62,7 +62,14 @@ Per avviae o installare DecriptOS, segui i seguenti passaggi:
 ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a483a07d-f9d5-4bee-8d9c-33c68a945872)
 
 7. Se decidi di installare, come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
-8. Una volta avviato impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
+
+## Cose da fare all'avvio
+
+1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian
+2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
+3. Collegarsi al WiFi (se da USB)
+4. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, inserisci la password (`decripto` di default) premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
+ 
 
 ## Disclaimer
 
