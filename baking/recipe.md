@@ -15,7 +15,7 @@ cd distro
 ```
 e abbiamo impostato i parametri della nostra iso.
 ```
-lb config -b iso --cache true --apt-recommends true -a amd64 --binary-images iso --debian-installer live --linux-flavours amd64 --mode debian --debian-installer-gui true --archive-areas "main contrib non-free" --security true --win32-loader false --interactive shell --updates true --iso-application decriptOS --iso-publisher https://decripto.org --iso-volume decripto --memtest none --bootappend-live "boot=live components acpi=off" --bootappend-install "boot=live components acpi=off" --security true
+lb config -b iso --cache true --apt-recommends true -a amd64 --binary-images iso --debian-installer live --linux-flavours amd64 --mode debian --debian-installer-gui true --archive-areas "main contrib non-free" --security true --win32-loader false --interactive shell --updates true --iso-application decriptOS --iso-publisher https://decripto.org --iso-volume decripto --memtest none --bootloaders grub-efi --binary-filesystem fat32 --bootloaders grub-legacy --bootloaders grub-pc --bootloaders syslinux
 ```
 Poi, ottenendo i permessi di root
 ```
@@ -27,7 +27,7 @@ lb build
 ```
 Una volta terminata questa fase, abbiamo una versione di debian super minimal su cui lavorare e nella quale installare e configurare ciò che ci serve. Per prima cosa installiamo i pacchetti che vogliamo nella nostra distro dai repository ufficiali di debian.
 ```
-apt install cinnamon python3 python3-full python3-pip python3-virtualenv git firefox-esr qtqr kleopatra scdaemon keepassxc zulucrypt-gui printer-driver-all searchmonkey firmware-linux firmware-linux-nonfree firmware-misc-nonfree linux-image-amd64 linux-headers-amd64 firmware-iwlwifi squashfs-tools syslinux-common syslinux-utils xorriso isolinux wireshark gedit simplescreenrecorder kate libreoffice curl tor unzip macchanger iptables libportaudio2 flameshot gimp httrack mousepad httraqt stacer autopsy secure-delete ffmpeg vlc libsecp256k1-0 evince python3-tk hashcat libwxgtk3.0-gtk3-0v5 gir1.2-gtop-2.0 libc++1 shotwell libgconf-2-4 librsvg2-bin firmware-atheros firmware-realtek firmware-amd-graphics clementine audacity dragonplayer viewnior flowblade gufw zenity
+apt install cinnamon python3 python3-full python3-pip python3-virtualenv git firefox-esr qtqr kleopatra scdaemon keepassxc zulucrypt-gui printer-driver-all searchmonkey firmware-linux firmware-linux-nonfree firmware-misc-nonfree linux-image-amd64 linux-headers-amd64 firmware-iwlwifi squashfs-tools syslinux-common syslinux-utils xorriso isolinux wireshark gedit simplescreenrecorder kate libreoffice curl tor unzip macchanger iptables libportaudio2 flameshot gimp httrack mousepad httraqt stacer autopsy secure-delete ffmpeg vlc libsecp256k1-0 evince python3-tk hashcat libwxgtk3.0-gtk3-0v5 gir1.2-gtop-2.0 libc++1 shotwell libgconf-2-4 librsvg2-bin firmware-atheros firmware-realtek firmware-amd-graphics clementine audacity dragonplayer viewnior flowblade gufw zenity software-properties-common obs-studio synaptic gdebi firmware-b43-installer firmware-amd-graphics intel-microcode firmware-realtek firmware-atheros firmware-libertas firmware-brcm80211 grub-efi
 ```
 A questo punto copiamo tutti i file con le configurazioni che potrebbero servirci, avviando lo script skelcopy.sh in un altra finestra di terminale.
 Questo copierà tutto il necessario nelle cartelle del sistema operativo e le personalizzazioni dell'utente nell'apposita cartella /etc/skel.
