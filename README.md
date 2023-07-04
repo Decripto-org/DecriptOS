@@ -57,7 +57,7 @@ Per avviae o installare DecriptOS, segui i seguenti passaggi:
    ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a4561aac-5c4d-4522-8e31-5638cab3b5b6)
 
 
-5. Dal menu di boot scegli "Live system" per provare la distro o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+5. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
 
 ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a483a07d-f9d5-4bee-8d9c-33c68a945872)
 
