@@ -190,6 +190,17 @@ kraken.py (avvio standard)
 kraken.py -h (messaggio di aiuto)
 ```
 
+**3. `redshift` - controlla i colori dello schermo per proteggere gli occhi dalla luce blu**
+
+Questo comando permette di controllare la tinta del monitor in modo fisso o in base all'ora.
+
+Esempio:
+```
+redshift -h
+redshift -O 5500 (imposta la tonalità a 5500 K)
+redshift -x (resetta il colore oroginale del monitor)
+```
+
 # Comandi Git per sincronizzare le cartelle con GitHub
 
 Git è un sistema di controllo versione distribuito ampiamente utilizzato. Qui di seguito troverai alcuni comandi principali per sincronizzare le cartelle con GitHub utilizzando Git.
