@@ -4,7 +4,7 @@ Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy,
 
 La nostra priorità è la tua privacy. Con DecriptOS, puoi navigare in modo sicuro utilizzando TOR preconfigurato e sfruttando il nostro mac spoofing all'avvio per creare un nuovo computer virtuale ad ogni avvio. Inoltre, abbiamo incluso Brave e Firefox come browser, già configurati per garantire sicurezza, privacy e semplificare la gestione delle crypto.
 
-Parlando di crypto, DecriptOS è il tuo alleato. Abbiamo incluso tutti i tool di cui hai bisogno: wallet crypto come Wasabi, Electrum, Feather e altri, estensioni per il browser, gestore dei pacchetti Linux per cercare nuovi strumenti e GitHub per lo sviluppo open source.
+Parlando di crypto, DecriptOS è il tuo alleato. Abbiamo incluso tutti i tool di cui hai bisogno: wallet crypto come Wasabi, Electrum, Feather e altri, estensioni per il browser, gestore dei pacchetti Linux per cercare nuovi strumenti e il tutto reso pubblico e trasparente, tramite GitHub per lo sviluppo open source.
 
 Per la sicurezza informatica, DecriptOS è in prima linea. Abbiamo configurato Firefox con preferiti preimpostati per evitare siti di phishing e inclusi tool dedicati alla due diligence dei progetti crypto, tra cui alcuni creati dal nostro team. Inoltre, KeepassXC è incluso come password manager per garantire la massima sicurezza per le tue credenziali.
 
