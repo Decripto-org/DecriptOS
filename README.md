@@ -95,5 +95,5 @@ DecriptOS è fornita "così com'è" e senza alcuna garanzia, esplicita o implici
 
 **Nota:** Essendo ancora in fase di test, se riscontri anomalie o noti che manca qualcosa o vorresti aggiungere qualcosa di default, clicca in alto nella tab `Issues` e crea una nuova issue (un memo) spiegando cosa hai trovato o cosa sistemare.
 
-**Licenza:** Nel file LICENSE potrai trovare tutti i dettagli sulla licenza di utilizzo.
+**Licenza:** Nel file [LICENSE](https://github.com/Decripto-org/DecriptOS/blob/main/LICENSE) potrai trovare tutti i dettagli sulla licenza di utilizzo.
 
