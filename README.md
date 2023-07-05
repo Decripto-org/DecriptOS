@@ -30,7 +30,7 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 
 - Processore: 1 GHz o superiore
 - RAM: 2 GB o superiore
-- Spazio su disco: 20 GB o superiore
+- Spazio su disco: 20 GB o superiore (nel caso di virtual machine)
 - Capienza USB (se si vuole usare tramite reboot): 8 GB o superiore
 - Connessione Internet per gli aggiornamenti e il download delle risorse aggiuntive
 
