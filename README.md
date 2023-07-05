@@ -2,6 +2,22 @@
 
 Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente dal team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e la due diligence, oltre alla gestione sicura delle crypto. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attivitàe per chiunque voglia gestire le crypto in modo sicuro o fare due diligenge nel mondo web2 e web3.
 
+## Vantaggi
+
+Eseguire un reboot utilizzando il sistema operativo DecriptOS offre diversi vantaggi significativi:
+
+1. Sicurezza potenziata: DecriptOS utilizza misure avanzate di sicurezza per proteggere il sistema operativo da minacce informatiche, malware e attacchi esterni. Un reboot con DecriptOS garantisce una partenza pulita e una protezione costante per i tuoi dati sensibili.
+
+2. Privacy migliorata: Il reboot con DecriptOS cancella i residui digitali e le tracce di attività precedenti, preservando la tua privacy. Questo riduce il rischio di essere tracciato o compromesso da terze parti indesiderate.
+
+3. Ottimizzazione delle risorse: Un reboot periodico con DecriptOS consente di liberare le risorse del sistema e ottimizzare le prestazioni del computer. Ciò garantisce un funzionamento fluido e veloce, consentendoti di sfruttare appieno le funzionalità del sistema operativo.
+
+4. Accesso a nuove funzionalità e aggiornamenti: Durante un reboot con DecriptOS, puoi accedere a nuove funzionalità, miglioramenti di sicurezza e aggiornamenti di sistema. Questo assicura che il tuo sistema operativo sia sempre all'avanguardia e in grado di affrontare le sfide emergenti della sicurezza informatica.
+
+5. Compatibilità con tecnologie emergenti: DecriptOS è progettato per supportare le tecnologie emergenti come la blockchain, il web3 e le crypto. Eseguendo un reboot con DecriptOS, puoi sfruttare appieno le potenzialità di queste tecnologie e partecipare in modo sicuro ed efficiente a transazioni e attività online basate su crypto e blockchain.
+
+Complessivamente, un reboot con DecriptOS ti offre una maggiore sicurezza, privacy, prestazioni ottimizzate e accesso a funzionalità avanzate. Questi vantaggi ti consentono di godere di un'esperienza informatica sicura e senza interruzioni, mantenendo al contempo il controllo dei tuoi dati e delle tue attività online.
+
 ## Funzionalità
 
 - **Strumenti specializzati**: DecriptOS include una vasta gamma di strumenti preinstallati specifici per le indagini sulle criptovalute e sul Web3. Sono inclusi analizzatori blockchain, client Ethereum, scanner di contratti intelligenti e molto altro.
@@ -78,4 +94,6 @@ DecriptOS è fornita "così com'è" e senza alcuna garanzia, esplicita o implici
 ---
 
 **Nota:** Essendo ancora in fase di test, se riscontri anomalie o noti che manca qualcosa o vorresti aggiungere qualcosa di default, clicca in alto nella tab `Issues` e crea una nuova issue (un memo) spiegando cosa hai trovato o cosa sistemare.
+
+**Licenza:** Nel file LICENSE potrai trovare tutti i dettagli sulla licenza di utilizzo.
 
