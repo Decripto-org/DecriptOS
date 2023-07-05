@@ -1,22 +1,20 @@
 # DecriptOS
 
-Benvenuto nella documentazione di DecriptOS, una distribuzione Linux progettata appositamente dal team di Decripto.org. DecriptOS è stata sviluppata per agevolare le indagini e la due diligence, oltre alla gestione sicura delle crypto. Questa distribuzione fornisce un insieme di strumenti e risorse specializzate per supportare gli investigatori di Decripto.org nelle loro attivitàe per chiunque voglia gestire le crypto in modo sicuro o fare due diligenge nel mondo web2 e web3.
+Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
-## Vantaggi
+La nostra priorità è la tua privacy. Con DecriptOS, puoi navigare in modo sicuro utilizzando TOR preconfigurato e sfruttando il nostro mac spoofing all'avvio per creare un nuovo computer virtuale ad ogni avvio. Inoltre, abbiamo incluso Brave e Firefox come browser, già configurati per garantire sicurezza, privacy e semplificare la gestione delle crypto.
 
-Eseguire un reboot utilizzando il sistema operativo DecriptOS offre diversi vantaggi significativi:
+Parlando di crypto, DecriptOS è il tuo alleato. Abbiamo incluso tutti i tool di cui hai bisogno: wallet crypto come Wasabi, Electrum, Feather e altri, estensioni per il browser, gestore dei pacchetti Linux per cercare nuovi strumenti e GitHub per lo sviluppo open source.
 
-1. Sicurezza potenziata: DecriptOS utilizza misure avanzate di sicurezza per proteggere il sistema operativo da minacce informatiche, malware e attacchi esterni. Un reboot con DecriptOS garantisce una partenza pulita e una protezione costante per i tuoi dati sensibili.
+Per la sicurezza informatica, DecriptOS è in prima linea. Abbiamo configurato Firefox con preferiti preimpostati per evitare siti di phishing e inclusi tool dedicati alla due diligence dei progetti crypto, tra cui alcuni creati dal nostro team. Inoltre, KeepassXC è incluso come password manager per garantire la massima sicurezza per le tue credenziali.
 
-2. Privacy migliorata: Il reboot con DecriptOS cancella i residui digitali e le tracce di attività precedenti, preservando la tua privacy. Questo riduce il rischio di essere tracciato o compromesso da terze parti indesiderate.
+E non dimentichiamo la produttività! Abbiamo integrato LibreOffice per le tue esigenze di produttività, tool per la registrazione video come OBS e SimpleScreenRecorder, e persino un editor video come Flowblade. Inoltre, abbiamo incluso Obsidian per semplificare la gestione delle note e della raccolta dati nella due diligence.
 
-3. Ottimizzazione delle risorse: Un reboot periodico con DecriptOS consente di liberare le risorse del sistema e ottimizzare le prestazioni del computer. Ciò garantisce un funzionamento fluido e veloce, consentendoti di sfruttare appieno le funzionalità del sistema operativo.
+DecriptOS è pensato per essere facile da usare e adattabile alle tue esigenze. Puoi eseguirlo direttamente da una chiavetta USB, senza rischi per i file del tuo sistema operativo principale. Inoltre, abbiamo incluso shortcut di sistema per creare template per il lavoro e comandi personalizzati, per semplificare le tue attività quotidiane.
 
-4. Accesso a nuove funzionalità e aggiornamenti: Durante un reboot con DecriptOS, puoi accedere a nuove funzionalità, miglioramenti di sicurezza e aggiornamenti di sistema. Questo assicura che il tuo sistema operativo sia sempre all'avanguardia e in grado di affrontare le sfide emergenti della sicurezza informatica.
+E la cosa migliore di DecriptOS? È completamente personalizzabile! Possiamo creare build dedicate e personalizzate per te, per soddisfare al meglio le tue esigenze specifiche.
 
-5. Compatibilità con tecnologie emergenti: DecriptOS è progettato per supportare le tecnologie emergenti come la blockchain, il web3 e le crypto. Eseguendo un reboot con DecriptOS, puoi sfruttare appieno le potenzialità di queste tecnologie e partecipare in modo sicuro ed efficiente a transazioni e attività online basate su crypto e blockchain.
-
-Complessivamente, un reboot con DecriptOS ti offre una maggiore sicurezza, privacy, prestazioni ottimizzate e accesso a funzionalità avanzate. Questi vantaggi ti consentono di godere di un'esperienza informatica sicura e senza interruzioni, mantenendo al contempo il controllo dei tuoi dati e delle tue attività online.
+Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a DecriptOS e vivi l'esperienza di un sistema operativo dedicato alla privacy, alle crypto e alla sicurezza informatica come mai prima d'ora. Scopri DecriptOS, il tuo nuovo alleato nel web3.
 
 ## Funzionalità
 
