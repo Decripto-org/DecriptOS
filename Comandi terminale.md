@@ -306,4 +306,4 @@ Esempio:
 git pull origin nome_branch
 ```
 
-Questi sono solo alcuni dei comandi più comuni utilizzati nel terminale di una distribuzione Linux basata su Debian e per lavorare con Git. Sono disponibili molti altri comandi e opzioni che puoi esplorare ulteriormente.
+Questi sono solo alcuni dei comandi più comuni utilizzati nel terminale per lavorare con Git. Sono disponibili molti altri comandi e opzioni che puoi esplorare ulteriormente [qui](https://training.github.com/downloads/it/github-git-cheat-sheet/). 
