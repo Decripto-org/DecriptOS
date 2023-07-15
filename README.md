@@ -77,7 +77,7 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
    5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
 
-## Cose da fare all'avvio
+## Cose da fare all'avvio (live)
 
 1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian
 2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
