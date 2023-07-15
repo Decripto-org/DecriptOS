@@ -84,6 +84,7 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
 3. Collegarsi al WiFi (se da USB)
 4. Controllare data e ora, se necessario, sincronizzare il sistema operativo con il fuso orario attuale.
 5. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, inserisci la password (`decripto` di default) premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
+6. Configurare le proprie credenziali su git andando nel terminale e digitando `git config --global user.name "Tuo Nome"` e poi `git config --global user.email latua@email.com`.
  
 
 ## Disclaimer
