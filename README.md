@@ -36,7 +36,7 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 
 ## Avvio o installazione
 
-Per avviae o installare DecriptOS, segui i seguenti passaggi:
+Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
 1. Scarica l'immagine ISO di DecriptOS da [questo link](https://e.pcloud.link/publink/show?code=XZXJofZm4QcwaQXEwLqiWMutlYW3LGQuQcX).
 2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
