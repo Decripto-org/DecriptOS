@@ -4,12 +4,12 @@
 - Debian based
 
 ## Browser
-- Brave for personal things
+- **Brave** for personal things
   - DuckDuckGo as search engine
   - Better then Chrome and Google for privacy
     - Chrome and Google collects a lot of data
     - ![linked-to-you-chrome-google](https://github.com/Decripto-org/DecriptOS/assets/134168296/75e261d4-97ec-430e-b3b2-eb06010b5100)
-- Firefox for web3 and work
+- **Firefox** for web3 and work
   - Extensions:
     - Cookie AutoDelete (deleted unwanted cookies)
     - Decentraleyes (protects against tracking)
@@ -25,7 +25,7 @@
     - uBlock Origin (efficient blocker)
     - User-Agent Switcher and Manager (user-agent manager)
     - Video DownloadHelper (Download videos from the web)
-- TOR for pryvacy and dark web
+- **TOR** for pryvacy and dark web
 
 ## Accessories
 - Text editors:
