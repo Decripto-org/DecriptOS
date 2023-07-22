@@ -17,6 +17,14 @@ chmod +x /usr/bin/nikto.pl
 chmod +x /home/decripto/Tools/dinit.sh
 ln -s /home/decripto/Tools/dinit.sh /usr/bin/
 chmod +x /usr/bin/dinit.sh
+ln -s /opt/scream.sh /usr/bin/
+chmod +x /usr/bin/scream.sh
+ln -s /home/decripto/Tools/LastWord/lastword.py /usr/bin/LastWord
+chmod +x /usr/bin/LastWord  
+ln -s /home/decripto/Tools/Dice2Seed/Dice2Seed.py /usr/bin/Dice2Seed
+chmod +x /usr/bin/Dice2Seed 
+ln -s /home/decripto/Tools/nexfil/nexfil.py  /usr/bin/
+chmod +x /usr/bin/nexfil.py
 
 update-initramfs -u
 
@@ -30,13 +38,16 @@ dpkg -i obsidian*
 cd kalitorify
 make install
 cd /home/decripto/Tools
-cd holehe-master
-python3 setup.py install
-cd /home/decripto/Tools
+#cd holehe-master
+#python3 setup.py install
+#cd /home/decripto/Tools
 ./burpsui*
 dpkg -i Mullvad*
 dpkg -i discord*
 dpkg -i Wasa*
+dpkg -i veracrypt*
+dpkg -i Bisq*
+dpkg -i sparrow*
 rm -rf *.deb
 rm -rf Kraken-main.zip
 rm -rf holehe-master.zip
