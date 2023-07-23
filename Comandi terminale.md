@@ -166,6 +166,13 @@ Per collegare GitHub tramite ssh:
 
 - aprire github e andare sotto settings, SSH, nuova, incolla e dai un nome
 
+**15. `man` - pre il manuale di un comando**
+
+Esempio:
+```
+man ls (mostra il manuale del comando 'ls')
+man mkdir (mostra il manuale del comando 'mkdir')
+```
 
 # Comandi di Decripto OS
 
@@ -180,14 +187,14 @@ Esempio:
 dinit.sh
 ```
 
-**2. `kraken.py` - Avvia il Kraken**
+**2. `Kraken` - Avvia il Kraken**
 
 Questo comando avvia il programma Kraken nel terminale, che assiste durante l'indagine automatizzando alcuni processi, come l'apertura delle tab e il salvataggio di alcuni dati.
 
 Esempio:
 ```
-kraken.py (avvio standard)
-kraken.py -h (messaggio di aiuto)
+Kraken (avvio standard)
+Kraken -h (messaggio di aiuto)
 ```
 
 **3. `redshift` - controlla i colori dello schermo per proteggere gli occhi dalla luce blu**
