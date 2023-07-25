@@ -70,8 +70,11 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
    ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a4561aac-5c4d-4522-8e31-5638cab3b5b6)
 
+   3.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
 
-5. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/e805d205-4823-4080-b252-b58681df13c9)
+
+6. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
 
 ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a483a07d-f9d5-4bee-8d9c-33c68a945872)
 
