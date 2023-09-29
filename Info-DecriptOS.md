@@ -6,8 +6,6 @@
 ## Browser
 - **Brave** for personal things
   - DuckDuckGo as search engine
-  - Better then Chrome and Google for privacy
-    - Chrome and Google collects a lot of data
 - **Firefox** for web3 and work
   - Extensions:
     - Cookie AutoDelete (deleted unwanted cookies)
