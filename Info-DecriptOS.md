@@ -22,7 +22,7 @@
     - uBlock Origin (efficient blocker)
     - User-Agent Switcher and Manager (user-agent manager)
     - Video DownloadHelper (Download videos from the web)
-- **TOR** for pryvacy and dark web
+- **TOR** for privacy and dark web
 
 ## Accessories
 - Text editors:
