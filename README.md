@@ -44,39 +44,26 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
    2.1 Flashing del file .iso su USB per usalo tramite reboot:
 
     - Una chiavetta USB da almeno 8Gb
+    
     - [Rufus](https://rufus.ie/it/) se si fa da Windows
-
-    ![image_2023-07-02_16-01-20](https://github.com/Decripto-org/DecriptOS/assets/134168296/fc71fd29-c982-44c1-9084-f45ddd16d331)
 
     oppure [Unebootin](https://unetbootin.github.io/) se si fa da Mac OS:
 
     - una volta scaricato premere il tasto destro e cliccare su "Apri" (potrebbe essere necessario farlo un paio di volte)
 
-    <img width="478" alt="Screenshot 2023-07-02 alle 17 21 41" src="https://github.com/Decripto-org/DecriptOS/assets/134168296/c4445a22-51c7-41db-9b59-d08eeb36ee37">
+    - poi selezionare il file .iso e la chiavetta USB
 
-    poi selezionare il file .iso e la chiavetta USB
-
-    <img width="533" alt="image" src="https://github.com/Decripto-org/DecriptOS/assets/134168296/73edf885-9638-491a-a1d7-8a7fe46f2dbd">
-
-    e avviare l'operazione.
+    - e avviare l'operazione.
 
 4. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione, tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
 
-   da Mac selezionare il supporto `EFI Boot`:
+   - da Mac selezionare il supporto `EFI Boot`:
 
-   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/ed3323d8-39f1-4630-98d5-649dfab080f0)
-
-   da Windows selezionare il supporto `USB - UEFI OS`:
-
-   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a4561aac-5c4d-4522-8e31-5638cab3b5b6)
+   - da Windows selezionare il supporto `USB - UEFI OS`:
 
    3.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
 
-   ![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/e805d205-4823-4080-b252-b58681df13c9)
-
 6. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
-
-![image](https://github.com/Decripto-org/DecriptOS/assets/134168296/a483a07d-f9d5-4bee-8d9c-33c68a945872)
 
    5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
 
