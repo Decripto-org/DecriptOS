@@ -3,7 +3,67 @@
 ## Operating system
 - Debian based
 
-## Browser
+## Sections
+
+### Accessories
+- Text editors:
+  - Kate
+  - Mousepad
+  - Text Editor
+  - Sublime Text
+- KeePassXC (password manager)
+- Kleopatra
+- Redshift
+- Stacer
+- VeraCrypt
+
+## Anonimous Proxy
+- AnonymousProxyOFF
+- AnonymousProxyON
+- IP Info
+- MacChanger
+
+The Anonymous Proxy switch all the system on TOR
+
+### Decripto
+- Burp Suite
+- HTTraQT
+- Initialize Work
+- Nexfil
+- Nikto
+- NMap
+- Obsidian
+- SubDominizer
+- TheHarvester
+
+### Graphics
+- Document Viewer
+- Flameshot
+- GIMP
+- ImageMagick
+- Inkscape
+- LibreOffice Draw
+- QtQr
+- Shotwell
+- Viewnior
+
+### Internet
+- Brave
+- Discord
+- Firefox
+- Mullvad VPN
+- Telegram
+- TOR
+- Wireshark
+
+### Office
+- Libre Office
+- Obsidian
+
+### Sound & Video
+- 
+
+### Browser
 - **Brave** for personal things
   - DuckDuckGo as search engine
 - **Firefox** for web3 and work
@@ -24,9 +84,3 @@
     - Video DownloadHelper (Download videos from the web)
 - **TOR** for privacy and dark web
 
-## Accessories
-- Text editors:
-  - Kate
-  - Mousepad
-  - Text Editor
-- KeePassXC (password manager)
