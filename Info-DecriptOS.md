@@ -61,11 +61,32 @@ The Anonymous Proxy switch all the system on TOR
 - Obsidian
 
 ### Sound & Video
-- 
+- Audacity
+- Clementine
+- Dragon Player
+- Flowblade
+- OBS Studio
+- SimpleScreenRecorder
+- VLC media player
 
-### Browser
-- **Brave** for personal things
-  - DuckDuckGo as search engine
+### Wallet
+- Bisq
+- BitcoinCore
+- BlockstreamGreen
+- Coiinb.in tool
+- Dice2Seed
+- ElectronCash
+- Electrum
+- ElectrumLTC
+- Feather
+- IanColemanBIP39
+- LastWord
+- MyCrypto
+- Sparrow
+- Wasabi Wallet
+
+## Browser
+- **Brave** clear for personal things
 - **Firefox** for web3 and work
   - Extensions:
     - Cookie AutoDelete (deleted unwanted cookies)
