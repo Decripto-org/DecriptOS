@@ -38,10 +38,13 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 
 Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
-1. Scarica l'immagine ISO di DecriptOS (versione 2.7) da [questo link](https://e.pcloud.link/publink/show?code=XZPd2WZHBn0zbo03vJ02sJ679vDs4SOVRwX)
-2. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
+1. Scarica l'immagine ISO di DecriptOS (versione 2.8) da [questo link](https://e.pcloud.link/publink/show?code=XZoypsZm4IVb9w5eG88npkAlnUW0SxnTfVV)
+2. (opzionale) confronta gli hash del file scaricato con i seguenti:
+   MD5: 2a0c9edd648db2efc6876f25d7e4f97e
+   SHA256: b44b05ce5c2a8c5cf4e14273077ef7e381af64b5eb04371dd1a1a3e41818f02f
+3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
 
-   2.1 Flashing del file .iso su USB per usalo tramite reboot:
+   3.1 Flashing del file .iso su USB per usalo tramite reboot:
 
     - Una chiavetta USB da almeno 8Gb
     
@@ -61,20 +64,21 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
    - da Windows selezionare il supporto `USB - UEFI OS`:
 
-   3.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
+   4.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
 
-6. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+5. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
 
    5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
 
 ## Cose da fare all'avvio (live)
 
-1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian
+1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian o, tramite terminale, digitare setxkbmap it
 2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
 3. Collegarsi al WiFi (se da USB)
 4. Controllare data e ora, se necessario, sincronizzare il sistema operativo con il fuso orario attuale.
 5. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, inserisci la password (`decripto` di default) premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
 6. Configurare le proprie credenziali su git andando nel terminale e digitando `git config --global user.name "Tuo Nome"` e poi `git config --global user.email latua@email.com`.
+7. Se installato in VirtualBox, per evitare problemi di connettività, rimuovere lo script mac_random.sh, andando nel menu preferenze -> startup e togliere la spunta dalla voce corrispondente.
  
 
 ## Disclaimer
