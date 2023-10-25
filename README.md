@@ -34,31 +34,31 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 - Capienza USB (se si vuole usare tramite reboot): 8 GB o superiore
 - Connessione Internet per gli aggiornamenti e il download delle risorse aggiuntive
 
-## Avvio o installazione
+## Avvio in modalità live
 
-Per avviare o installare DecriptOS, segui i seguenti passaggi:
+Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 
 1. Scarica l'immagine ISO di DecriptOS (versione 2.8) da [questo link](https://e.pcloud.link/publink/show?code=XZoypsZm4IVb9w5eG88npkAlnUW0SxnTfVV)
 2. (opzionale) confronta gli hash del file scaricato con i seguenti:
    MD5: 2a0c9edd648db2efc6876f25d7e4f97e
    SHA256: b44b05ce5c2a8c5cf4e14273077ef7e381af64b5eb04371dd1a1a3e41818f02f
-3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO.
+3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO appena scaricata.
 
    3.1 Flashing del file .iso su USB per usalo tramite reboot:
 
-    - Una chiavetta USB da almeno 8Gb
+    - usa na chiavetta USB da almeno 8Gb
     
-    - [Rufus](https://rufus.ie/it/) se si fa da Windows
+    - per scrivere la iso sulla chiavetta USB usa [Rufus](https://rufus.ie/it/) se operi da Windows
 
-    oppure [Unebootin](https://unetbootin.github.io/) se si fa da Mac OS:
+    oppure [Unebootin](https://unetbootin.github.io/) se operi da Mac OS:
 
-    - una volta scaricato premere il tasto destro e cliccare su "Apri" (potrebbe essere necessario farlo un paio di volte)
+    - una volta scaricato il tool premi il tasto destro e clicca su "Apri" (potrebbe essere necessario farlo un paio di volte)
 
-    - poi selezionare il file .iso e la chiavetta USB
+    - poi seleziona il file .iso di DecriptOS e la chiavetta USB sulla quale vuoi scrivere il sistema operativo
 
-    - e avviare l'operazione.
+    - avvia l'operazione.
 
-4. Avvia il tuo computer (o la virtual machine) utilizzando il supporto di installazione, tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
+4. Avvia il tuo computer scegliendo di avviare il sistema operativo installato sulla chiavetta USB, entrando nel menu che, in genere, appare tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
 
    - da Mac selezionare il supporto `EFI Boot`:
 
@@ -70,9 +70,37 @@ Per avviare o installare DecriptOS, segui i seguenti passaggi:
 
    5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
 
+## Creazione di macchina virtuale con VirtualBox
+
+1. Crea una nuova macchina virtuale impostando:
+   - almeno 2 GB di RAM;
+   - almeno 2 core (dipende dal processore principale, se si hanno almeno 16 core disponibili, assegnarne almeno 4 alla macchina virtuale);
+   - creare un disco virtuale di almeno 25 GB;    
+2. Nel menu dedicato all'archiviazione, seleziona il supporto ottico e scegliere come disco il file .iso di DecriptOS;
+3. (opzionale) Personalizza la macchina virtuale:
+   - impostando clipboard e drag&drop come bidirezionale (nella sezione Generale - Avanzate);
+   - abilitando l'accelerazione 3D (nella sezione Schermo);
+   - abilitando l'USB 3.0 (nella sezione USB);
+4. Avvia la macchina virtuale;
+5. Dal menu di avvio, scegli "Live system" per provare la distro o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni;
+6. Se installi la distro:
+   - lascia vuoto il campo root password, cosicche l'utente che andrai a creare sarà abilitato ad utilizzare i comandi da amministratore con `sudo`;
+   - ricordati di impostare l'username `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente;
+8. Avvia la distro;
+9. (opzionale) per una migliore esperienza utente, installa le VirtualBox Guest Additions. Per farlo:
+    - dal menu in alto clicca su "Dispositivi" e "Inserimento immagine delle Guest Additions";
+    - ora dovresti vedere, aprendo il file manager, un cd inserito, copiane il contenuto in una cartella, ad esempio dentro la cartella Documenti;
+    - apri il tuo terminale e digita i comandi `cd Documenti` per posizionarti nella cartella Documenti e avere accesso ai file ivi contenuti;
+    - digita il comando `chmod +x VBoxLinuxAdditions.run` per dare i permessi di esecuzione allo script;
+    - lancia lo script con `sudo ./VBoxLinuxAdditions.run`, digitando la password che hai impostato per l'utente decripto in fase di installazione;
+    - (opzionale) al termine dell'esecuzione dello script, cancella tutti i file che hai copiato nella cartella Documenti;
+    - riavvia la macchina virtuale.
+
+
+
 ## Cose da fare all'avvio (live)
 
-1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian o, tramite terminale, digitare setxkbmap it
+1. Cambiare il layout della tastiera, andando sotto Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian o, tramite terminale, digitare `setxkbmap it`
 2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
 3. Collegarsi al WiFi (se da USB)
 4. Controllare data e ora, se necessario, sincronizzare il sistema operativo con il fuso orario attuale.
