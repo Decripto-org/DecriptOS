@@ -3,31 +3,14 @@
 systemctl disable tor
 systemctl enable ufw
 
-chown decripto /usr/share/backgrounds/decriptoWP
-chown decripto /usr/share/backgrounds/decriptoWP/*
-chown decripto /usr/share/backgrounds/wp.sh
 chmod +x /usr/share/backgrounds/wp.sh
-#chmod +x /home/decripto/Tools/Kraken-main/kraken.py 
-#ln -s /home/decripto/Tools/Kraken-main/kraken.py /usr/bin/
-#chmod +x /usr/bin/kraken.py
-chmod +x /home/decripto/Tools/SubDomainizer/SubDomainizer.py
-ln -s /home/decripto/Tools/SubDomainizer/SubDomainizer.py /usr/bin/
-chmod +x /usr/bin/SubDomainizer.py 
-chmod +x /home/decripto/Tools/theHarvester/theHarvester.py
-chmod +x /home/decripto/Tools/nikto/program/nikto.pl
-ln -s /home/decripto/Tools/nikto/program/nikto.pl /usr/bin/
-chmod +x /usr/bin/nikto.pl
-chmod +x /home/decripto/Tools/dinit.sh
-ln -s /home/decripto/Tools/dinit.sh /usr/bin/
 chmod +x /usr/bin/dinit.sh
 ln -s /opt/scream.sh /usr/bin/
 chmod +x /usr/bin/scream.sh
-ln -s /home/decripto/Tools/LastWord/lastword.py /usr/bin/LastWord
-chmod +x /usr/bin/LastWord  
-ln -s /home/decripto/Tools/Dice2Seed/Dice2Seed.py /usr/bin/Dice2Seed
-chmod +x /usr/bin/Dice2Seed 
-ln -s /home/decripto/Tools/nexfil/nexfil.py  /usr/bin/
-chmod +x /usr/bin/nexfil.py
+
+chmod -R +x /opt/
+# needed by subdomainizer
+chmod -R 777 /usr/local/lib/python3.9/dist-packages/tldextract/.tld_set
 
 update-initramfs -u
 
@@ -41,14 +24,12 @@ wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add
 apt update
 apt install sublime-text
 
-cd /home/decripto/Tools
+cd /etc/skel/Tools
 dpkg -i obsidian*
 cd kalitorify
 make install
-cd /home/decripto/Tools
-#cd holehe-master
-#python3 setup.py install
-#cd /home/decripto/Tools
+cd /etc/skel/Tools
+rm -rf kalitorify
 ./burpsui*
 dpkg -i Mullvad*
 dpkg -i discord*
@@ -63,9 +44,8 @@ rm -rf holehe-master.zip
 rm -rf tor-browser-linux*
 rm -rf tsetup*
 cd
-rm -rf /etc/skel/*
-rm -rf /home/decripto/Documents/skelcopy.sh
-rm -rf /home/decripto/Documents/steps
-rm -rf /home/decripto/Tools/burp*
+rm -rf /etc/skel/Documents/skelcopy.sh
+rm -rf /etc/skel/Documents/steps
+rm -rf /etc/skel/Tools/burp*
 
 echo "remember to also delete this script"
