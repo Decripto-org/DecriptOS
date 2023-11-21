@@ -70,7 +70,7 @@ Prior to delving into the manual, take note of the following key points:
 | F5 / Ctrl+R | Refresh view/site |
 | Ctrl+H | Show/hide hidden files |
 | F9 | Show/hide sidebar |
-| F10 | Show/hide action menu |
+| F10 / Alt | Show/hide action menu |
 | Ctrl+1 | List view |
 | Ctrl+2 | Grid view |
 | Ctrl+3 | Compact view |
