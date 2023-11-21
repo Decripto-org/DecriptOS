@@ -19,7 +19,7 @@ Prior to delving into the manual, take note of the following key points:
 | Super+L | Melange Looking Glass |
 | Ctrl+Alt+ArrowDown | Window selection screen |
 | Super+D | Show Desktop |
-| Alt+F1 | Command dialog |
+| Alt+F2 | Command dialog |
 | Ctrl+X | Cut |
 | Ctrl+C | Copy |
 | Ctrl+V | Paste |
