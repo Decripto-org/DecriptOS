@@ -38,7 +38,7 @@ Prior to delving into the manual, take note of the following key points:
 | Alt+F7 | Move window |
 | Alt+F8 | Resize window |
 | Alt+F10 | Maximize/unmaximize window | 
-| Alt+Space | Open window menù |
+| Alt+Space | Open window menu |
 | Ctrl+F1 | Window shortcut |
 | Ctrl+N | New window |
 | Ctrl+W | Close tab or window |
