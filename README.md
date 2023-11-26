@@ -24,6 +24,21 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
+## Download di DecriptOS
+Puoi scaricare **DecriptOS 3.0** da [questo link](https://e.pcloud.link/publink/show?code=XZf3MDZNiyd930FVJ8t1btUInjkqBYxIfGk).
+Valori di hash per verificare la genuinità dell'immagine scaricata:
+- MD5: e38b6fd204d4732bf5d6b3dcc1e51f8f
+- SHA256: 7c40bc0964db551bbea592ef131da85a49472495a259a106430962dcefb95f04
+
+## Novità rispetto alla versione precedente
+- Aggiunto il DecriptOS manager per aggiornare il sistema operativo e i tool in automatico (ancora da completare), gestire il proxy Tor, cambiare il DNS e chiudere rapidamente tutti i browser;
+- Aggiunto un gestore di passwurd super sicure;
+- Aggiunti componenti aggiuntvi a FIreFox per la gestione di ancora più tipologie di crypto asset;
+- Nuova organizzazione del menu, con la creazione delle categorie DecriptOS (tool per le funzionalità del sistema operativo), OSInt (tool per la raccolta di informazioni) e Wallets (tool per la gestione di crypto asset);
+- Nuovi tool in tutte le categorie;
+- Rimosso il vincolo sull'impiego dell'username `decripto`;
+- Aggiunta di ancora più firmware per aumentare la compatibilità e strumenti per l'utilizzo quotidiano.
+
 ## Requisiti di sistema
 
 Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddisfare i seguenti requisiti minimi:
@@ -38,10 +53,8 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 
 Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 
-1. Scarica l'immagine ISO di DecriptOS (versione 2.8) da [questo link](https://e.pcloud.link/publink/show?code=XZoypsZm4IVb9w5eG88npkAlnUW0SxnTfVV)
-2. (opzionale) confronta gli hash del file scaricato con i seguenti:
-   MD5: 2a0c9edd648db2efc6876f25d7e4f97e
-   SHA256: b44b05ce5c2a8c5cf4e14273077ef7e381af64b5eb04371dd1a1a3e41818f02f
+1. Scarica l'immagine ISO di DecriptOS al link riportato sopra.
+2. (opzionale) confronta gli hash del file scaricato;
 3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO appena scaricata.
 
    3.1 Flashing del file .iso su USB per usalo tramite reboot:
@@ -66,9 +79,18 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 
    4.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
 
-5. Dal menu di boot scegli "Live system" per provare la distro (consigliato) o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni.
+5. Dal menu di boot scegli "Live system" per provare la distro.
 
-   5.1. Se decidi di installare il sistema operativo (tipo su un vecchio computer), come username imposta `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente.
+## Installazione del sistema operativo
+Per installare DecriptOS, segui i seguenti passaggi:
+
+1. Scarica l'immagine ISO di DecriptOS al link riportato sopra.
+2. (opzionale) confronta gli hash del file scaricato;
+3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO appena scaricata (utilizza le istruzioni indicate per l'avvio in modalità live)
+4. Dal menu di avvio, scegli "Start installer" per avviare l'installazione sul computer seguendo le istruzioni;
+   - lascia vuoto il campo root password, cosicche l'utente che andrai a creare sarà abilitato ad utilizzare i comandi da amministratore con `sudo`;
+   - ora puoi impostare l'username che preferisci, non è più necessario utilizzare l'username `decripto`;
+6. Avvia la distro.
 
 ## Creazione di macchina virtuale con VirtualBox
 
@@ -85,7 +107,7 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 5. Dal menu di avvio, scegli "Live system" per provare la distro o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni;
 6. Se installi la distro:
    - lascia vuoto il campo root password, cosicche l'utente che andrai a creare sarà abilitato ad utilizzare i comandi da amministratore con `sudo`;
-   - ricordati di impostare l'username `decripto`, altrimenti alcuni tool potrebbero non funzionare correttamente;
+   - ora puoi impostare l'username che preferisci, non è più necessario utilizzare l'username `decripto`;
 8. Avvia la distro;
 9. (opzionale) per una migliore esperienza utente, installa le VirtualBox Guest Additions. Per farlo:
     - dal menu in alto clicca su "Dispositivi" e "Inserimento immagine delle Guest Additions";
@@ -95,8 +117,6 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
     - lancia lo script con `sudo ./VBoxLinuxAdditions.run`, digitando la password che hai impostato per l'utente decripto in fase di installazione;
     - (opzionale) al termine dell'esecuzione dello script, cancella tutti i file che hai copiato nella cartella Documenti;
     - riavvia la macchina virtuale.
-
-
 
 ## Cose da fare all'avvio (live)
 
