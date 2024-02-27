@@ -1,3 +1,4 @@
+# Outdated - building process heavily updated, sources coming soon, ask if in doubt
 ## Ecco come abbiamo realizzato DecriptOS!
 
 Per prima cosa, in una vm basata su debian bullseye, abbiamo creato l'ambiente di lavoro di DecriptOS, configurando tutti i tool, i menu, la parte grafica, le feature e scaricando i file di installazione che vogliamo siano presenti nella distro.
