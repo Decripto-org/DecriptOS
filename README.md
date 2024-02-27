@@ -27,8 +27,8 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 ## Download di DecriptOS
 Puoi scaricare **DecriptOS 3.2** da [questo link](https://e.pcloud.link/publink/show?code=XZf3MDZNiyd930FVJ8t1btUInjkqBYxIfGk).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
-- MD5: e38b6fd204d4732bf5d6b3dcc1e51f8f
-- SHA256: 7c40bc0964db551bbea592ef131da85a49472495a259a106430962dcefb95f04
+- MD5: 2fe0d974793750b2fe91197039c7d058
+- SHA256: becf76ee68f18e3e86199c0963f28b9bc4e1cef57e79fffb280abf9bd5cd857f
 
 ## Novità rispetto alla versione precedente
 - Sistema operativo basato su Debian 12 BookWorm basato su kernel Linux 6.1.0-18;
