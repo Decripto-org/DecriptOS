@@ -1,4 +1,5 @@
 # DecriptOS
+[Download](https://e.pcloud.link/publink/show?code=XZjyPnZFvxAgxEtP7hTVC2AyRIjfz9xpIqV)
 
 Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
@@ -25,7 +26,7 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
 ## Download di DecriptOS
-Puoi scaricare **DecriptOS 3.2** da [questo link](https://e.pcloud.link/publink/show?code=XZf3MDZNiyd930FVJ8t1btUInjkqBYxIfGk).
+Puoi scaricare **DecriptOS 3.2** da [questo link](https://e.pcloud.link/publink/show?code=XZjyPnZFvxAgxEtP7hTVC2AyRIjfz9xpIqV).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
 - MD5: 2fe0d974793750b2fe91197039c7d058
 - SHA256: becf76ee68f18e3e86199c0963f28b9bc4e1cef57e79fffb280abf9bd5cd857f
