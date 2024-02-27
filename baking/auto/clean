@@ -1,0 +1,10 @@
+#!/bin/sh
+
+set -e
+
+lb clean noauto "${@}"
+
+rm -f config/binary config/bootstrap config/chroot config/common config/source config/build
+rm -f build.log prepare.log config/archives/liquorix.list.*
+find config -empty -delete
+find config -type l -delete

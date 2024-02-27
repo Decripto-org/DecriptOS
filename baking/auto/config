@@ -1,0 +1,26 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --architectures amd64 \
+    --linux-packages "linux-image" \
+    --ignore-system-defaults \
+    --bootappend-live "boot=live components autologin"
+	"${@}"
+
+
+
+
+#lb config noauto \
+#     --architectures amd64 \
+#     --linux-flavours 686-pae
+#     --binary-images hdd \
+#     --mirror-bootstrap http://ftp.it.debian.org/debian/ \
+#     --mirror-binary http://ftp.ch.debian.org/debian/ \
+#     --bootappend-live "boot=live components locales=it_IT.UTF-8 quiet splash  keyboard-layouts=it username=decripto hostname=decriptOS timezone=atlantic/azores autologin"
+#     --bootappend-live "boot=live components locales=es_ES.UTF-8 quiet splash  keyboard-layouts=es username=decripto hostname=decriptOS timezone=atlantic/azores autologin"
+#     --bootappend-live "boot=live components locales=de_DE.UTF-8 quiet splash  keyboard-layouts=de username=decripto hostname=decriptOS timezone=atlantic/azores autologin"
+#     --bootappend-live boot=live components locales=fr_FR.UTF-8 quiet splash  keyboard-layouts=fr username=decripto hostname=decriptOS timezone=atlantic/azores autologin
+#lb build --apt-secure false "${@}"
+      "${@}"
