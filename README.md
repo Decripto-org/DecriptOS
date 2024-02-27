@@ -25,15 +25,17 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
 ## Download di DecriptOS
-Puoi scaricare **DecriptOS 3.0** da [questo link](https://e.pcloud.link/publink/show?code=XZf3MDZNiyd930FVJ8t1btUInjkqBYxIfGk).
+Puoi scaricare **DecriptOS 3.2** da [questo link](https://e.pcloud.link/publink/show?code=XZf3MDZNiyd930FVJ8t1btUInjkqBYxIfGk).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
 - MD5: e38b6fd204d4732bf5d6b3dcc1e51f8f
 - SHA256: 7c40bc0964db551bbea592ef131da85a49472495a259a106430962dcefb95f04
 
 ## Novità rispetto alla versione precedente
-- Aggiunto il DecriptOS manager per aggiornare il sistema operativo e i tool in automatico (ancora da completare), gestire il proxy Tor, cambiare il DNS e chiudere rapidamente tutti i browser;
-- Aggiunto un gestore di passwurd super sicure;
-- Aggiunti componenti aggiuntvi a FIreFox per la gestione di ancora più tipologie di crypto asset;
+- Sistema operativo basato su Debian 12 BookWorm basato su kernel Linux 6.1.0-18;
+- Rinnovato il DecriptOS manager per aggiornare il sistema operativo e i tool in automatico (ancora da completare), gestire il proxy Tor, cambiare il DNS e chiudere rapidamente tutti i browser;
+- Aggiunto un geneartore di password super sicure;
+- Aggiunti componenti aggiuntvi a FireFox per la gestione di ancora più tipologie di crypto asset;
+- uBlock Origin adesso integra la nostra lista con oltre 1500 domini scam;
 - Nuova organizzazione del menu, con la creazione delle categorie DecriptOS (tool per le funzionalità del sistema operativo), OSInt (tool per la raccolta di informazioni) e Wallets (tool per la gestione di crypto asset);
 - Nuovi tool in tutte le categorie;
 - Rimosso il vincolo sull'impiego dell'username `decripto`;
@@ -45,7 +47,7 @@ Per utilizzare DecriptOS, il tuo sistema, o la tua virtual machine, devono soddi
 
 - Processore: 1 GHz o superiore
 - RAM: 2 GB o superiore
-- Spazio su disco: 20 GB o superiore (nel caso di virtual machine)
+- Spazio su disco: 25 GB o superiore (nel caso di virtual machine)
 - Capienza USB (se si vuole usare tramite reboot): 8 GB o superiore
 - Connessione Internet per gli aggiornamenti e il download delle risorse aggiuntive
 
@@ -87,10 +89,16 @@ Per installare DecriptOS, segui i seguenti passaggi:
 1. Scarica l'immagine ISO di DecriptOS al link riportato sopra.
 2. (opzionale) confronta gli hash del file scaricato;
 3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO appena scaricata (utilizza le istruzioni indicate per l'avvio in modalità live)
-4. Dal menu di avvio, scegli "Start installer" per avviare l'installazione sul computer seguendo le istruzioni;
+4. Dal menu di avvio, scegli "Install DecriptOS" per avviare l'installazione sul computer seguendo le istruzioni;
    - lascia vuoto il campo root password, cosicche l'utente che andrai a creare sarà abilitato ad utilizzare i comandi da amministratore con `sudo`;
    - ora puoi impostare l'username che preferisci, non è più necessario utilizzare l'username `decripto`;
 6. Avvia la distro.
+
+**Oppure**
+
+1. Segui i passi per l'avvio in modalità live;
+2. Prova la distro e se vuoi utilizza il collegamento sul Desktop per avviare l'installazione;
+3. Segui i passi del wizard di installazione e goditi DecriptOS.
 
 ## Creazione di macchina virtuale con VirtualBox
 
@@ -104,7 +112,7 @@ Per installare DecriptOS, segui i seguenti passaggi:
    - abilitando l'accelerazione 3D (nella sezione Schermo);
    - abilitando l'USB 3.0 (nella sezione USB);
 4. Avvia la macchina virtuale;
-5. Dal menu di avvio, scegli "Live system" per provare la distro o "Start installer" per avviare l'installazione sul computer seguendo le istruzioni;
+5. Dal menu di avvio, scegli "Live system" per provare la distro o "Install DecriptOS" per avviare l'installazione sul computer seguendo le istruzioni;
 6. Se installi la distro:
    - lascia vuoto il campo root password, cosicche l'utente che andrai a creare sarà abilitato ad utilizzare i comandi da amministratore con `sudo`;
    - ora puoi impostare l'username che preferisci, non è più necessario utilizzare l'username `decripto`;
@@ -124,7 +132,7 @@ Per installare DecriptOS, segui i seguenti passaggi:
 2. Impostare una password per keyring dal terminale con `sudo passwd` e poi inserendola (se desiderato). Le altre password di default sono `decripto`.
 3. Collegarsi al WiFi (se da USB)
 4. Controllare data e ora, se necessario, sincronizzare il sistema operativo con il fuso orario attuale.
-5. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, inserisci la password (`decripto` di default) premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
+5. Aggiornare il sistema operativo, nel terminale digita `sudo apt update`, premi invio, una volta finito digita `sudo apt upgrade` e premi invio, se necessario quando richiesto digita `yes` per i pacchetti aggiuntivi.
 6. Configurare le proprie credenziali su git andando nel terminale e digitando `git config --global user.name "Tuo Nome"` e poi `git config --global user.email latua@email.com`.
 7. Se installato in VirtualBox, per evitare problemi di connettività, rimuovere lo script mac_random.sh, andando nel menu preferenze -> startup e togliere la spunta dalla voce corrispondente.
  
