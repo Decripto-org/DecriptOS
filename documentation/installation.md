@@ -77,10 +77,9 @@ To install DecriptOS, follow these steps:
 ### Creating a Virtual Machine with VirtualBox
 
 1. Create a new virtual machine with the following settings:
-   * At least 2 GB of RAM;
-
-* At least 2 cores (depending on the main processor, if you have at least 16 cores available, assign at least 4 to the virtual machine);
-* Create a virtual disk of at least 25 GB;
+    * At least 2 GB of RAM;
+    * At least 2 cores (depending on the main processor, if you have at least 16 cores available, assign at least 4 to the virtual machine);
+    * Create a virtual disk of at least 25 GB;
 
 2. In the storage menu, select the optical drive and choose the DecriptOS .iso file as the disk;
 3. (optional) Customize the virtual machine:
