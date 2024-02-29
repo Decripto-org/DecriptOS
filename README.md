@@ -1,5 +1,5 @@
 # DecriptOS
-[Download](https://e.pcloud.link/publink/show?code=XZjyPnZFvxAgxEtP7hTVC2AyRIjfz9xpIqV)
+[Download](https://e.pcloud.link/publink/show?code=XZddwnZKqsQIUYvIWJd3vHwFTlVcu0ViqVV)
 
 Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
@@ -26,10 +26,10 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
 ## Download di DecriptOS
-Puoi scaricare **DecriptOS 3.2** da [questo link](https://e.pcloud.link/publink/show?code=XZjyPnZFvxAgxEtP7hTVC2AyRIjfz9xpIqV).
+Puoi scaricare **DecriptOS 4.0** da [questo link](https://e.pcloud.link/publink/show?code=XZddwnZKqsQIUYvIWJd3vHwFTlVcu0ViqVV).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
-- MD5: 2fe0d974793750b2fe91197039c7d058
-- SHA256: becf76ee68f18e3e86199c0963f28b9bc4e1cef57e79fffb280abf9bd5cd857f
+- MD5: a12239f09822f5608506758151b203d8
+- SHA256: 009abc076d92cdf2d4abf72a783ca2167248c5d7d6b8899fe9c4cd128acd7312
 
 ## Novità rispetto alla versione precedente
 - Sistema operativo basato su Debian 12 BookWorm basato su kernel Linux 6.1.0-18;
@@ -59,10 +59,11 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 1. Scarica l'immagine ISO di DecriptOS al link riportato sopra.
 2. (opzionale) confronta gli hash del file scaricato;
 3. Crea un supporto di installazione avviabile (es. una chiavetta USB o una virtual machine) utilizzando l'immagine ISO appena scaricata.
+   3.1 Copia il file iso su una chiavetta su cui hai installato [Ventoy](https://www.ventoy.net/en/index.html) (scelta consigliata).
 
-   3.1 Flashing del file .iso su USB per usalo tramite reboot:
+   3.2 Flashing del file .iso su USB per usalo tramite reboot:
 
-    - usa na chiavetta USB da almeno 8Gb
+    - usa una chiavetta USB da almeno 8Gb
     
     - per scrivere la iso sulla chiavetta USB usa [Rufus](https://rufus.ie/it/) se operi da Windows
 
@@ -74,7 +75,7 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 
     - avvia l'operazione.
 
-4. Avvia il tuo computer scegliendo di avviare il sistema operativo installato sulla chiavetta USB, entrando nel menu che, in genere, appare tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
+5. Avvia il tuo computer scegliendo di avviare il sistema operativo installato sulla chiavetta USB, entrando nel menu che, in genere, appare tenendo premuto `Alt` (da Mac) o `esc` o `F12` (da Windows).
 
    - da Mac selezionare il supporto `EFI Boot`:
 
@@ -82,7 +83,7 @@ Per avviare e utilizzare DecriptOS, segui i seguenti passaggi:
 
    4.1. Se avvii il computer tramite BIOS con `F2` vai nella tab `Save & Exit` e seleziona la chiavetta USB con `UEFI`
 
-5. Dal menu di boot scegli "Live system" per provare la distro.
+6. Dal menu di boot scegli "Live system" per provare la distro.
 
 ## Installazione del sistema operativo
 Per installare DecriptOS, segui i seguenti passaggi:
