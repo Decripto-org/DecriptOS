@@ -8,6 +8,8 @@ description: The web3 OS
 
 DecriptOS is a groundbreaking Linux distribution specifically engineered for the burgeoning web3 ecosystem. It is designed to facilitate a secure and seamless transition for individuals venturing into the realms of blockchain and cryptocurrency. Recognizing the complexities and risks associated with the digital asset space, DecriptOS aims to mitigate common threats such as scams and phishing, ensuring a safer environment for both newcomers and seasoned users. With its web3-ready stance, DecriptOS embodies a forward-thinking approach, providing an array of pre-loaded features and tools to empower users to navigate, interact, and innovate within the blockchain domain effectively.
 
+![desktop](https://cdn.discordapp.com/attachments/1161210184685858857/1213195639714750484/image.png?ex=65f4977c&is=65e2227c&hm=481c423500754752fbea7cfaab3b339b6d8d1a231d4f7bb6bd382f885a802846&)
+
 #### Mission and Objectives
 
 Our core mission is to democratize the accessibility of the crypto space, making it safer and more intuitive for everyone. DecriptOS strives to:
