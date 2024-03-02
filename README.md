@@ -1,5 +1,5 @@
 # DecriptOS
-[Download](https://e.pcloud.link/publink/show?code=XZddwnZKqsQIUYvIWJd3vHwFTlVcu0ViqVV)
+[Download](https://e.pcloud.link/publink/show?code=XZKjdnZ0Bqd9tc4o8uWwzKSVhSny8VvP6Gk)
 
 Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
@@ -26,10 +26,10 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
 ## Download di DecriptOS
-Puoi scaricare **DecriptOS 4.0** da [questo link](https://e.pcloud.link/publink/show?code=XZddwnZKqsQIUYvIWJd3vHwFTlVcu0ViqVV).
+Puoi scaricare **DecriptOS 4.0** da [questo link](https://e.pcloud.link/publink/show?code=XZKjdnZ0Bqd9tc4o8uWwzKSVhSny8VvP6Gk).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
-- MD5: a12239f09822f5608506758151b203d8
-- SHA256: 009abc076d92cdf2d4abf72a783ca2167248c5d7d6b8899fe9c4cd128acd7312
+- MD5: fa869348c4364feeb4b5100d4ed061f5
+- SHA256: 595d7bc55d1de2a42af5bb1fb0c3bc0f07eee4e5e4d478292c2274fc1d16677e
 
 ## Novità rispetto alla versione precedente
 - Sistema operativo basato su Debian 12 BookWorm basato su kernel Linux 6.1.0-18;
