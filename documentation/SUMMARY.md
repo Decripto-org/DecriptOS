@@ -13,6 +13,7 @@
 		* [DecriptOS](learning-resources/menu/decriptos.md)
 		* [Encryption](learning-resources/menu/encryption.md)
 		* [Graphics](learning-resources/menu/graphics.md)
+		* [Internet](learning-resources/menu/internet.md)
 * [Community and support](community-and-support.md)
 * [Development and contributions](development-and-contributions.md)
 * [License and acknowledgments](license-and-acknowledgments.md)
