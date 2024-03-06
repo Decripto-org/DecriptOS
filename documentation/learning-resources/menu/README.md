@@ -6,6 +6,8 @@ description: DecriptOS menu button
 
 DecriptOS is designed with the modern user in mind, bringing together a wide array of applications and tools that span across various categories for a comprehensive desktop experience. The DecriptOS menu is your gateway to exploring these tools, each carefully selected and integrated to enhance your interaction with the digital world, particularly the evolving web3 ecosystem. Here's an overview of what you can expect:
 
+![DecriptOS Menu](screenshot/menu.png)
+
 ## Accessories
 The [Accessories](learning-resources/menu/accessories.md) section houses everyday tools and utilities that aid in daily tasks, including calculators, text editors, and archive managers. Whether you need to take quick notes, manage compressed files, or perform simple calculations, this section has got you covered.
 
