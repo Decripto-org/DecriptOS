@@ -13,7 +13,27 @@ A fast, privacy-focused web browser that blocks trackers and intrusive ads by de
 A popular communication platform designed for creating communities ranging from gamers to educational groups, offering text, voice, and video chat capabilities.
 
 ## Firefox ESR
-The Extended Support Release (ESR) version of Mozilla Firefox provides long-term support, stability, and security, making it ideal for users who require a reliable web browser.
+
+The Extended Support Release (ESR) version of Mozilla Firefox provides a stable and secure browsing experience, ideal for users who require reliability over the newest features. DecriptOS enhances Firefox with a curated selection of extensions designed to boost privacy, security, and web usability, making it a powerful tool for both casual browsing and intensive web3 interactions.
+
+### Pre-installed Extensions
+
+- **Cookie AutoDelete**: Automatically removes cookies not used by open tabs to maintain a clean browsing environment and enhance privacy.
+- **Decentraleyes**: Protects against content delivery network (CDN) tracking by serving local versions of common libraries, reducing tracking and improving load times.
+- **Privacy Badger**: Learns to block invisible trackers and third-party advertisers spying on your browsing habits without breaking the sites you visit.
+- **Enhancer for YouTube**: Offers a multitude of features to improve your YouTube experience, including ad-blocking, volume control with the mouse wheel, and video speed adjustments.
+- **FoxyProxy Standard**: An advanced proxy management tool that allows the dynamic switching of internet connections across one or more proxy servers.
+- **Metamask**: A gateway to blockchain apps, Metamask is not just a wallet but also allows you to interact with Ethereum dApps directly in your browser.
+- **Phantom**: A wallet extension for Solana, enabling users to manage their SOL and SPL tokens and interact seamlessly with Solana's decentralized applications.
+- **Temple**: A Tezos wallet extension that allows you to store, send, and receive Tez as well as interact with Tezos dApps directly from your browser.
+- **Resurrect Pages**: Provides options to access cached versions of web pages, useful for retrieving information from sites that are temporarily down.
+- **Save Page WE**: Allows you to save complete web pages as a single HTML file, preserving all the page's elements and structure for offline use.
+- **To DeepL**: Offers quick translation capabilities powered by DeepL, ensuring you can easily understand content in foreign languages.
+- **uBlock Origin**: An efficient wide-spectrum blocker that is easy on memory and can load and enforce thousands more filters than other popular blockers.
+- **User-Agent Switcher and Manager**: Allows you to spoof and mimic user-agent strings, giving you control over how websites perceive your browser.
+- **Video DownloadHelper**: Enables you to easily download and convert videos from many sites directly with your browser.
+
+These extensions transform Firefox ESR into a powerhouse for privacy-conscious users and crypto enthusiasts alike, offering a rich browsing experience tailored to the needs of DecriptOS users. Whether you're researching, streaming, or interacting with web3 applications, Firefox ESR equipped with these extensions ensures a secure, efficient, and enjoyable online journey.
 
 ## HexChat
 An IRC client based on XChat, HexChat allows you to join multiple IRC channels (chat rooms) simultaneously, talk publicly, private one-on-one conversations, etc.

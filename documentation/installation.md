@@ -103,12 +103,11 @@ To install DecriptOS, follow these steps:
 
 ### Things to Do on Startup (Live)
 
-1. Change the keyboard layout by going to Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian, or, through the terminal, type `setxkbmap it`
+1. Change the keyboard layout by going to Menu --> Preferences --> Keyboard --> Layouts --> + --> Italian (or your keyboard layout), or, through the terminal, type `setxkbmap it`
 2. Set a password for the keyring from the terminal with `sudo passwd` and then enter it (if desired). The other default passwords are `decripto`.
 3. Connect to WiFi (if using USB)
 4. Check the date and time, if necessary, synchronize the operating system with the current time zone.
 5. Update the operating system; in the terminal type `sudo apt update`, press enter, once finished type `sudo apt upgrade` and press enter, if necessary when prompted type `yes` for the additional packages.
-6. Configure your credentials on git by going to the terminal and typing `git config --global user.name "Your Name"` and then `git config --global user.email youremail@email.com`.
-7. If installed in VirtualBox, to avoid connectivity issues, remove the mac\_random.sh script by going to preferences -> startup and unchecking the corresponding item.
+6. If installed in VirtualBox, to avoid connectivity issues, remove the mac\_random.sh script by going to preferences -> startup and unchecking the corresponding item.
 
 ***

@@ -8,7 +8,7 @@ description: Use DecriptOS. Spread DecriptOS.
 
 DecriptOS is committed to fostering an open and collaborative environment. To align with this commitment, DecriptOS and its accompanying documentation are released under the GNU General Public License v3.0 (GPL-3.0), a widely used free software license that guarantees end users the freedom to run, study, share, and modify the software.
 
-The GPL-3.0 license ensures that DecriptOS remains free and open, allowing for transparency, security, and community engagement. For detailed terms and conditions, please refer to the `LICENSE` file within the DecriptOS repository or visit the [GNU General Public License v3.0 webpage](https://www.gnu.org/licenses/gpl-3.0.html).
+The GPL-3.0 license ensures that DecriptOS remains free and open, allowing for transparency, security, and community engagement. For detailed terms and conditions, please refer to the [LICENSE](LICENSE) file within the DecriptOS repository or visit the [GNU General Public License v3.0 webpage](https://www.gnu.org/licenses/gpl-3.0.html).
 
 **Acknowledgments**
 
