@@ -12,6 +12,7 @@
 		* [Accessories in DecriptOS](learning-resources/menu/accessories.md)
 		* [DecriptOS](learning-resources/menu/decriptos.md)
 		* [Encryption](learning-resources/menu/encryption.md)
+		* [Graphics](learning-resources/menu/graphics.md)
 * [Community and support](community-and-support.md)
 * [Development and contributions](development-and-contributions.md)
 * [License and acknowledgments](license-and-acknowledgments.md)
