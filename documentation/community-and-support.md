@@ -10,15 +10,15 @@ The DecriptOS community is vibrant and supportive, offering various platforms fo
 
 Our support forums are a great place to start if you have questions, encounter issues, or simply want to discuss DecriptOS with fellow users. Here, you can find a wealth of information, from troubleshooting tips to in-depth discussions about future developments:
 
-* **DecriptOS Official Forum**: Visit [DecriptOS Forum](https://forum.decriptos.org) to engage with the community, seek technical support, and share your experiences.
-* **Telegram Group**: Join our [Telegram group](https://t.me/decriptoscommunity) for real-time discussions, quick tips, and a chance to connect with other DecriptOS users.
-* **Discord Server**: Our [Discord server](https://discord.gg/decriptos) is a dynamic space for live chats, voice discussions, and more, covering a wide range of topics related to DecriptOS and the broader web3 ecosystem.
+* **DecriptOS Official Forum**: Visit [DecriptOS Discussions](https://github.com/Decripto-org/DecriptOS/discussions/34) to engage with the community, seek technical support, and share your experiences.
+* **Telegram Group**: Join our [Telegram group](https://t.me/+3ssbn_5mkI5iODVk) for real-time discussions, quick tips, and a chance to connect with other DecriptOS users.
+* **Discord Server**: Our [Discord server](https://discord.gg/utM4DFkkpU) is a dynamic space for live chats, voice discussions, and more, covering a wide range of topics related to DecriptOS and the broader web3 ecosystem.
 
 **Contributing to DecriptOS**
 
 Contributions to DecriptOS come in many forms, not just coding. Whether you're a developer, a tech enthusiast, or someone passionate about privacy and web3, there's a way for you to contribute:
 
-* **Development Contributions**: If you're a developer and wish to contribute to the DecriptOS codebase, check out our [GitHub repository](https://github.com/decriptos/decriptos). Here, you can report issues, submit pull requests, and participate in the development discussion.
+* **Development Contributions**: If you're a developer and wish to contribute to the DecriptOS codebase, check out our [GitHub repository](https://github.com/Decripto-org/DecriptOS). Here, you can report issues, submit pull requests, and participate in the development discussion.
 * **Documentation and Translation**: Help improve and translate DecriptOS documentation to make it accessible to a wider audience. Good documentation is crucial for user support and onboarding.
 * **Community Support**: Participate in forums, Telegram, and Discord to help other users. Sharing your knowledge and experience can greatly assist newcomers and contribute to a positive community atmosphere.
 * **Feedback and Suggestions**: Your feedback is invaluable. Share your thoughts on how to improve DecriptOS, suggest new features, or report bugs. User feedback is a key driver of the project's evolution.
