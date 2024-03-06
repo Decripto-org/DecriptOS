@@ -18,6 +18,7 @@
 		* [OSINT](learning-resources/menu/osint.md)
 		* [Sound & Video](learning-resources/menu/sound-and-video.md)
 	* [Terminal commands](learning-resources/terminal-commands)
+	* [Shortcuts](learning-resources/shortcuts.md)
 * [Community and support](community-and-support.md)
 * [Development and contributions](development-and-contributions.md)
 * [License and acknowledgments](license-and-acknowledgments.md)
