@@ -1,5 +1,5 @@
 # DecriptOS
-[Download](https://e.pcloud.link/publink/show?code=XZKjdnZ0Bqd9tc4o8uWwzKSVhSny8VvP6Gk)
+[Download](https://e.pcloud.link/publink/show?code=XZKjdnZ0Bqd9tc4o8uWwzKSVhSny8VvP6Gk)    |    [Documentation](https://decripto.gitbook.io/decriptos)
 
 Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
