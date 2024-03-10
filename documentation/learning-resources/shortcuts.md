@@ -95,16 +95,18 @@ Prior to delving into the manual, take note of the following key points:
 
 ## Terminal
 
-| Shortcut	| Utility |
-|---|---|
-| Ctrl+A | Move the cursor to the beginning of the line |
-| Ctrl+E | Move the cursor to the end of the line |
-| Ctrl+C | Kill the current process |
-| Ctrl+R | Search the history based on the entered keywords |
-| Ctrl+U | Delete the current line |
-| Ctrl+K | Delete the text at the right side of the cursor |
-| Ctrl+W | Delete the text before the cursor |
-| Ctrl+L | Clear the output of a terminal command (the same as typing 'clear') |
-| Alt+F | Move the cursor forward by one word |
-| Alt+B | Move the cursor back by one word |
+| Shortcut      | Utility                                                                                                                    |
+| ------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| Ctrl+A        | Move the cursor to the beginning of the line                                                                               |
+| Ctrl+E        | Move the cursor to the end of the line                                                                                     |
+| Ctrl+C        | Kill the current process                                                                                                   |
+| Ctrl+R        | Search the history based on the entered keywords                                                                           |
+| Ctrl+U        | Delete the current line                                                                                                    |
+| Ctrl+K        | Delete the text at the right side of the cursor                                                                            |
+| Ctrl+W        | Delete the text before the cursor                                                                                          |
+| Ctrl+L        | Clear the output of a terminal command (the same as typing 'clear')                                                        |
+| Alt+F         | Move the cursor forward by one word                                                                                        |
+| Alt+B         | Move the cursor back by one word                                                                                           |
 | [letter]`tab` | Enter a letter and then tab once to autocomplete the word or tab twice to list all the commands beginning with that letter |
+| Ctrl+Shift+C  | Copy selected text                                                                                                         |
+| Ctrl+Shift+V  | Paste text                                                                                                                 |
