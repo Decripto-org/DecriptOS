@@ -6,12 +6,18 @@ description: Guide to download and install DecriptOS
 
 ### Downloading DecriptOS
 
-You can download **DecriptOS 4.0** from [this link](https://e.pcloud.link/publink/show?code=XZddwnZKqsQIUYvIWJd3vHwFTlVcu0ViqVV). To verify the authenticity of the downloaded image, use the following hash values:
+You can download **DecriptOS 4.1** from [this link](https://e.pcloud.link/publink/show?code=XZbnI9ZiHQvCKW53DzINhnPmWJJGpyg5olX). To verify the authenticity of the downloaded image, use the following hash values:
 
-* MD5: a12239f09822f5608506758151b203d8
-* SHA256: 009abc076d92cdf2d4abf72a783ca2167248c5d7d6b8899fe9c4cd128acd7312
+* MD5: 4530887934930f33037c78f23687168e
+* SHA256: 7564ac09bc0df9cae74691fdc44e5a3f54545912df571ce9535ccc354705a8c5
 
-### What's New Compared to the Previous Version
+### What's new in the 4.1 Version
+* Operating system based on Debian 12 BookWorm with Linux kernel 6.1.0-20;
+* Tools updated to latest version;
+* Menu cleaned;
+* Search by image feature integrated in Firefox;
+
+### What's new in the 4.0 Version
 
 * Operating system based on Debian 12 BookWorm with Linux kernel 6.1.0-18;
 * Updated DecriptOS manager for automatic system and tool updates (still in progress), managing the Tor proxy, changing DNS, and quickly closing all browsers;
