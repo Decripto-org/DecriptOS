@@ -1,5 +1,5 @@
 # DecriptOS
-[Download](https://e.pcloud.link/publink/show?code=XZNkLMZdpK992Ap1HphRKoshVJisXNwcTUV)    |    [Documentation](https://decripto.gitbook.io/decriptos)
+[Download](https://e.pcloud.link/publink/show?code=XZhgWxZc1S8mQNm2iLoO6Gvhd0yPjLB1wD7)    |    [Documentation](https://decripto.gitbook.io/decriptos)    |    [Download previous version](https://e.pcloud.link/publink/show?code=XZNkLMZdpK992Ap1HphRKoshVJisXNwcTUV)
 
 Benvenuti in DecriptOS, il sistema operativo che mette al centro la tua privacy, la tua sicurezza informatica e il mondo delle crypto. Con DecriptOS, avrai accesso a una distro Linux leggera, veloce e potente che ti permetterà di sfruttare appieno le potenzialità delle tecnologie emergenti.
 
@@ -26,10 +26,14 @@ Non compromettere la tua privacy e la sicurezza delle tue crypto. Passa a Decrip
 - **Aggiornamenti frequenti**: DecriptOS viene costantemente mantenuta e aggiornata dal team di sviluppo di Decripto.org. Gli utenti riceveranno regolarmente aggiornamenti di sicurezza e nuove funzionalità per rimanere al passo con gli sviluppi nel settore delle criptovalute e del Web3.
 
 ## Download di DecriptOS
-Puoi scaricare **DecriptOS 4.2.1** da [questo link](https://e.pcloud.link/publink/show?code=XZNkLMZdpK992Ap1HphRKoshVJisXNwcTUV).
+Puoi scaricare **DecriptOS 4.4** da [questo link](https://e.pcloud.link/publink/show?code=XZhgWxZc1S8mQNm2iLoO6Gvhd0yPjLB1wD7).
 Valori di hash per verificare la genuinità dell'immagine scaricata:
-- MD5: 0df50b1de3aab4e5ced43e2163faf2fd
-- SHA256: 4e2c85e880dd5eaa7b95a0885b46750bbc6dd0803e6bf553d3273ea8c68ba1b5
+- MD5: 07c6a897071bacc679449b63e3b81d4f
+- SHA256: 09ac72dbe307afdb351da02779f4a566a1b4029037210506d06ff33d183595f7
+
+## Novità della versione 4.4
+- Aggiornamento di tutti i tool alle ultime versioni disponibili;
+- Aggiunto Spiderfoot nella sezione OSInt.
 
 ## Novità della versione 4.2.1
 - Aggiornamento di tutti i tool alle ultime versioni disponibili;
